@@ -1,0 +1,23 @@
+{
+  "name": "teste-de-api-ts",
+  "version": "1.0.0",
+  "description": "Teste de API usando TypeScript e Express",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx --watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.14.12",
+    "tsx": "^4.22.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "zod": "^4.4.3"
+  }
+}
